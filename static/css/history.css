@@ -1,0 +1,66 @@
+
+/* 
+.input-container {
+  display: inline-flex;
+
+} */
+@font-face {
+    font-family:'myFont';
+    src: url('/font/NanumSquareNeoTTF-bRg.woff') format('woff');
+    font-style: normal;
+    font-weight: 100;
+  }
+  
+  @font-face {
+    font-family:'myFontBold';
+    src: url('/font/NanumSquareNeoTTF-eHv.woff') format('woff');
+    font-style:normal;
+    font-weight: 900;
+  }
+  
+  
+  body:not(#list-api-demo){
+    background-color: #FEF8E8;
+  }
+  
+  /* #list-api-demo * {
+    font-family:'myFont';
+    font-weight: 100;
+  } */
+
+  * {
+    font-family:'myFont';
+    font-weight: 100;
+  }
+
+
+  #bold {
+    font-family: myFontBold;
+  }
+  
+  .options {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(191, 191, 191, 0.15);
+  }
+  
+  .options .caption {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .option {
+    margin-top: 10px;
+  }
+  
+  .option > span {
+    margin-right: 10px;
+  }
+  
+  .option > .dx-selectbox {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 350px;
+    width: 100%;
+  }
+  

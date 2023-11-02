@@ -1,0 +1,47 @@
+
+/* 
+.input-container {
+  display: inline-flex;
+
+} */
+@font-face {
+  font-family:'myFont';
+  src: url('/font/NanumSquareNeoTTF-bRg.woff') format('woff');
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family:'myFontBold';
+  src: url('/font/NanumSquareNeoTTF-eHv.woff') format('woff');
+  font-style:normal;
+  font-weight: 900;
+}
+
+
+* {
+  font-family:'myFont';
+  font-weight: 100;
+  /* background-color: #FEF8E8; */
+  background-color: #FEF8E8;
+
+  
+}
+
+#bold {
+  font-family: myFontBold;
+}
+
+
+.search-container {
+  background-color: #FEF8E8;
+}
+
+
+.search-fieldSet {
+  margin : 0 30px 0 30px
+}
+/* 
+nav * {
+  background-color: #006251;
+} */
